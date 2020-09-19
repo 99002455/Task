@@ -117,7 +117,7 @@ int factorial1(int operand1)
     return -1;
  if(operand1 == 0)
     return 1;
-return operand1 * factorial(operand1-1);
+return operand1 * factorial1(operand1-1);
 }
 
 int factorial11(int operand2)
@@ -126,7 +126,7 @@ int factorial11(int operand2)
     return -1;
  if(operand2 == 0)
     return 1;
-return operand2 * factorial(operand2-1);
+return operand2 * factorial11(operand2-1);
 }
 
 int squarearea1(int operand1)
